@@ -1,0 +1,38 @@
+header{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.head-menu a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500px;
+    margin-left: 20px;
+    color: #42464f;
+}
+.active{
+    color: #42b773 !important;
+}
+.head-menu a:hover{
+    color: #42b773;
+    transition: .3s;
+}
+.head-logo i{
+    color: #42b773;
+    font-size: 35px;
+    margin-right: 10px;
+    display: none;
+}
+.head-logo{
+    display: flex;
+    align-items: center;
+}

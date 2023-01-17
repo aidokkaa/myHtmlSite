@@ -1,0 +1,31 @@
+.offers{
+    background: linear-gradient(to bottom , #42b773 0% , #a9dc56);
+}
+.offer-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.offer-item{
+    width: 30%;
+    text-align: center;
+    color: #fff;
+}
+.offer-item img{
+    border-radius: 50%;
+}
+.offer-item h2{
+    margin-top: 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.offer-item p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.offer-item h2:hover{
+   color: #42464f;
+   text-decoration: underline;
+   transition: .3s;
+}

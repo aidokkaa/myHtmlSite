@@ -1,0 +1,24 @@
+.social{
+    background-color: #42b773;
+}
+.social-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 500px;
+}
+.social-item i{
+    color: #fff;
+    font-size: 24px;
+}
+.social-item{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.social-item:hover{
+    background-color: #a9dc56;
+    transition: .3s;
+}

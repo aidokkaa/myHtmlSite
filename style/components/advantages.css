@@ -1,0 +1,63 @@
+.advantages{
+    background-image: url(../../images/adv-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.adv-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.adv-item{
+    width: 20%;
+}
+.adv-item i{
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+.adv-item a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 30px 0;
+}
+.adv-item p{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.adv-item a:hover{
+    color: #42b773;
+    text-decoration: underline;
+    transition: .3s;
+}
+.advantages::before{
+    content: "";
+    display: flex;
+    width: 157px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-image: url(../../images/adv-bef.png);
+}
+.advantages::after{
+    content: "";
+    display: flex;
+    width: 157px;
+    height: 68px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-image: url(../../images/home-after.png);
+}

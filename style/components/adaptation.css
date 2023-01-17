@@ -1,0 +1,32 @@
+@media(max-width:990px){
+    .head-logo i{
+        display: inline;
+    }
+    .head-menu{
+        display: none;
+    }
+    .about-inner{
+     flex-wrap: wrap; 
+    }
+    .about-right  , .about-left{
+     width: 100%; 
+    }
+    .about-left{
+        margin-top: 50px;
+    }
+}
+@media(max-width:770px){
+    .counter-inner{
+        flex-wrap: wrap;
+    }
+     .counter-item{
+        width: 45%;
+        margin: 20px 0; 
+    }
+}
+@media(max-width:570px){
+    .counter-item{
+        width: 80%;
+        margin: 20px 0;
+    }
+}
